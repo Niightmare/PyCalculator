@@ -41,4 +41,7 @@ def operations_options(option):
         op.exponential()
     if option == 7:
         op.seno()
+    if option == 8:
+        op.tangente()
+
 4

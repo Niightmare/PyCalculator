@@ -8,7 +8,7 @@ def addition():
     x = int(input("Número 1: "))
     y = int(input("Número 2: "))
 
-    return print(f"\nLa suma de {x} + {y} = {x+y} \n")
+    return print(f"\nLa suma de {x} + {y} = {x + y} \n")
 
 
 def subtraction():
@@ -17,7 +17,7 @@ def subtraction():
     x = int(input("Número 1: "))
     y = int(input("Número 2: "))
 
-    print(f"\nLa resta de {x} - {y} = {x-y} \n")
+    print(f"\nLa resta de {x} - {y} = {x - y} \n")
 
 
 def multiplication():
@@ -26,7 +26,7 @@ def multiplication():
     x = int(input("Número 1: "))
     y = int(input("Número 2: "))
 
-    print(f"\nLa multiplicación de {x} x {y} = {x*y} \n")
+    print(f"\nLa multiplicación de {x} x {y} = {x * y} \n")
 
 
 def division():
@@ -35,7 +35,7 @@ def division():
     x = int(input("Número 1: "))
     y = int(input("Número 2: "))
 
-    print(f"\nLa división de {x} / {y} = {x/y} \n")
+    print(f"\nLa división de {x} / {y} = {x / y} \n")
 
 
 def square():
@@ -50,7 +50,7 @@ def exponential():
     x = int(input("Número a elevar: "))
     y = int(input("Potenciación: "))
 
-    print(f"\n{x} a la {y} potencia: {pow(x,y)} \n")
+    print(f"\n{x} a la {y} potencia: {pow(x, y)} \n")
 
 
 def seno():
@@ -58,5 +58,13 @@ def seno():
     x = int(input("Seno de: "))
     z = math.radians(x)
 
-    print(f"\n El seno de {x} es {math.sin(z)} \n")
+    print(f"\nEl seno de {x} es {math.sin(z)} \n")
+
+
+def tangente():
+    print("---Tangente---")
+    x = int(input("Tangente de: "))
+    z = math.radians(x)
+
+    print(f"\nLa tangente de {x} es {math.tan(z)} \n")
 

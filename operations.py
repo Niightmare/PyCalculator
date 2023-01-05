@@ -1,4 +1,5 @@
 import numpy as np
+import math
 
 
 def addition():
@@ -50,3 +51,12 @@ def exponential():
     y = int(input("Potenciación: "))
 
     print(f"\n{x} a la {y} potencia: {pow(x,y)} \n")
+
+
+def seno():
+    print("---Seno---")
+    x = int(input("Seno de: "))
+    z = math.radians(x)
+
+    print(f"\n El seno de {x} es {math.sin(z)} \n")
+

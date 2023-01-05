@@ -39,4 +39,6 @@ def operations_options(option):
         op.square()
     if option == 6:
         op.exponential()
+    if option == 7:
+        op.seno()
 4

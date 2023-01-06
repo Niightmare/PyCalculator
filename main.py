@@ -13,12 +13,21 @@ while True:
     if option <= 10:
         if option != 10:
             repeat_operation = 0
-            while repeat_operation != 2:
-                utils.operations_options(option)
+
+            while True:
+                if repeat_operation == 0:
+                    utils.operations_options(option)
                 utils.pregunta()
                 repeat_operation = int(input(""))
+
+                if repeat_operation > 2:
+                    print("\nUps! Opción incorrecta\n")
+                elif repeat_operation == 1:
+                    repeat_operation = 0
+                elif repeat_operation == 2:
+                    break
+
         if option == 10:
             break
     else:
         print("\nOpción incorrecta!!\n")
-

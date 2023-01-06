@@ -13,7 +13,9 @@ def menu():
         5) Raíz
         6) Potenciación
         7) Seno
-        8) Salir
+        8) Coseno
+        9) Tangente
+        10) Salir
          """)
 
 
@@ -42,6 +44,8 @@ def operations_options(option):
     if option == 7:
         op.seno()
     if option == 8:
+        op.coseno()
+    if option == 9:
         op.tangente()
 
 4

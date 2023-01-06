@@ -61,6 +61,14 @@ def seno():
     print(f"\nEl seno de {x} es {math.sin(z)} \n")
 
 
+def coseno():
+    print("---Coseno---")
+    x = int(input("Coseno de: "))
+    z = math.radians(x)
+
+    print(f"\nEl coseno de {x} es {math.cos(z)} \n")
+
+
 def tangente():
     print("---Tangente---")
     x = int(input("Tangente de: "))

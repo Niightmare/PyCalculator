@@ -10,11 +10,15 @@ while True:
     utils.menu()
     option = int(input("Opción menu: "))
 
-    if option != 9:
-        repeat_operation = 0
-        while repeat_operation != 2:
-            utils.operations_options(option)
-            utils.pregunta()
-            repeat_operation = int(input(""))
-    if option == 9:
-        break
+    if option <= 10:
+        if option != 10:
+            repeat_operation = 0
+            while repeat_operation != 2:
+                utils.operations_options(option)
+                utils.pregunta()
+                repeat_operation = int(input(""))
+        if option == 10:
+            break
+    else:
+        print("\nOpción incorrecta!!\n")
+
